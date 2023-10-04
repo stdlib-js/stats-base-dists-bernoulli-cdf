@@ -65,13 +65,18 @@ where `0 <= p <= 1` is the success probability.
 ## Usage
 
 ```javascript
+import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli-cdf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-bernoulli-cdf/tags). For example,
+
+```javascript
 import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli-cdf@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli-cdf@v0.1.1-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli-cdf@esm/index.mjs';
 ```
 
 #### cdf( x, p )
@@ -136,7 +141,7 @@ y = mycdf( 2.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli-cdf@v0.1.1-esm/index.mjs';
+import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli-cdf@esm/index.mjs';
 
 var p;
 var x;
