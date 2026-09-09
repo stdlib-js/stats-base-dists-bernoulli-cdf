@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-31)
+## Unreleased (2026-09-09)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`6f3dfa0`](https://github.com/stdlib-js/stdlib/commit/6f3dfa03f6bcdbc14e862f445eb31b11ecfb6244) - **test:** migrate `stats/base/dists/bernoulli/cdf` to ULP-based assertions [(#15113)](https://github.com/stdlib-js/stdlib/pull/15113) _(by Aryan kumar)_
 -   [`cc0ab62`](https://github.com/stdlib-js/stdlib/commit/cc0ab62448395c0044c20fa8de044752a4edace2) - **docs:** add missing trailing periods in README descriptions [(#11751)](https://github.com/stdlib-js/stdlib/pull/11751) _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
 -   Philipp Burckhardt
 
 </section>
